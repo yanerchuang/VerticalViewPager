@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.yl.verticalviewpager.VerticalViewPager
+    <com.ywj.verticalviewpager.VerticalViewPager
         android:id="@+id/verticalViewPager"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -24,6 +24,12 @@
 
         </LinearLayout>
 
-    </com.yl.verticalviewpager.VerticalViewPager>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00f"
+            android:gravity="center"
+            android:text="000002" />
+    </com.ywj.verticalviewpager.VerticalViewPager>
 
 </android.support.constraint.ConstraintLayout>
